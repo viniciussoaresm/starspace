@@ -39,3 +39,9 @@ flutter:
     - images/logo.png
     - images/texture-backgroud.jpg
     - images/load-gif.gif
+    - images/icons/catalog/especies.png
+    - images/icons/catalog/filmes.png
+    - images/icons/catalog/nave.png
+    - images/icons/catalog/personagens.png
+    - images/icons/catalog/planetas.png
+    - images/icons/catalog/veiculos.png

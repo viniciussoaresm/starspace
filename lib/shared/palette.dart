@@ -22,7 +22,7 @@ class Palette {
       primaryColor: intermediate,
       brightness: Brightness.light,
       backgroundColor: intermediate,
-      accentColor: primary,
+      accentColor: secondary,
       accentIconTheme: IconThemeData(color: intermediate),
       dividerColor: primary,
       primaryTextTheme: TextTheme(
