@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:mobx/mobx.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:starspace/shared/palette.dart';
-import 'package:starspace/shared/theme_enum.dart';
+import 'package:starspace/shared/enums/theme_enum.dart';
 part 'theme_store.g.dart';
 
 class ThemeStore = _ThemeStoreBase with _$ThemeStore;

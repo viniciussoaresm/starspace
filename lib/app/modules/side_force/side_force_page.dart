@@ -1,7 +1,7 @@
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:starspace/shared/palette.dart';
-import 'package:starspace/shared/theme_enum.dart';
-import 'package:starspace/shared/theme_store.dart';
+import 'package:starspace/shared/enums/theme_enum.dart';
+import 'package:starspace/shared/stores/theme_store.dart';
 import 'side_force_store.dart';
 import 'package:flutter/material.dart';
 
@@ -32,13 +32,14 @@ class SideForcePageState extends State<SideForcePage> {
             body: Column(
               children: <Widget>[
                 Container(
+                  height: MediaQuery.of(context).size.height * 0.50,
                   alignment: Alignment.topCenter,
-                  padding: EdgeInsets.only(top: 20),
+                  padding: EdgeInsets.all(20),
                   child: Image.asset("images/logo.png"),
                 ),
                 Container(
                     alignment: Alignment.topCenter,
-                    padding: EdgeInsets.only(top: 20),
+                    padding: EdgeInsets.all(10),
                     child: Text(
                       "Em qual lado da força você está?",
                       style: TextStyle(
@@ -54,7 +55,7 @@ class SideForcePageState extends State<SideForcePage> {
                     )),
                 Container(
                   alignment: Alignment.topCenter,
-                  padding: EdgeInsets.only(top: 50),
+                  padding: EdgeInsets.all(10),
                   child: ElevatedButton(
                       onPressed: () async {
                         await _themeStore.changeThema(ThemeEnum.DARK);
@@ -75,7 +76,7 @@ class SideForcePageState extends State<SideForcePage> {
                 ),
                 Container(
                   alignment: Alignment.topCenter,
-                  padding: EdgeInsets.only(top: 50),
+                  padding: EdgeInsets.all(10),
                   child: ElevatedButton(
                       onPressed: () async {
                         await _themeStore.changeThema(ThemeEnum.LIGHT);

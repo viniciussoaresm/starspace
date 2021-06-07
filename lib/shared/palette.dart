@@ -7,6 +7,7 @@ class Palette {
 
   static final darkTheme = ThemeData(
       primarySwatch: Colors.grey,
+      focusColor: secondary,
       primaryColor: primary,
       brightness: Brightness.dark,
       backgroundColor: primary,
@@ -19,6 +20,7 @@ class Palette {
 
   static final lightTheme = ThemeData(
       primarySwatch: Colors.grey,
+      focusColor: intermediate,
       primaryColor: intermediate,
       brightness: Brightness.light,
       backgroundColor: intermediate,

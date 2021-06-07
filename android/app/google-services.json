@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1041202345445",
+    "firebase_url": "https://starspace-3815a-default-rtdb.firebaseio.com",
+    "project_id": "starspace-3815a",
+    "storage_bucket": "starspace-3815a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041202345445:android:1c30b8f688be31b5bbab0c",
+        "android_client_info": {
+          "package_name": "br.com.viniciussoares.starspace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1041202345445-4j97leet9v2i8i9vprplecmgl1j3u1cp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCl1BEMudM7bavJNjOUwPm9lkcco4kJijs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1041202345445-4j97leet9v2i8i9vprplecmgl1j3u1cp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
